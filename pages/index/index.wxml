@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="../../static/image/index_backgroud.jpeg"></image>
+  <view class="btns">
+    <button class = "btn" bindtap = "goToLogin">{{loginButtonName}}</button>
+    <button class = "btn" bindtap = "goToRegister">{{registerButtonName}}</button>
+  </view>
+</view>

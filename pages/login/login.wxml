@@ -1,0 +1,10 @@
+<view class = "container">
+  <image src="../../static/image/index_backgroud.jpeg"></image>
+  <view class = "ipts">
+    <input class = "ipt" type = "text" placeholder="请输入用户名" placeholder-class = "inputTip" maxlength="15" bindinput="inputAccount"/>
+    <input class = "ipt" type = "password" placeholder="请输入密码" placeholder-class = "inputTip" maxlength="15" bindinput="inputPassword"/>
+  </view>
+  <view class = "btns">
+    <button class = "btn" bindtap = "login">{{loginButtonName}}</button>
+  </view>
+</view>

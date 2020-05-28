@@ -1,0 +1,25 @@
+.ipts {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.ipt {
+  width: 520rpx;
+  margin-left: 15%;
+  margin-bottom: 20%;
+}
+.btns {
+  position: fixed;
+  left: 0;
+  bottom: 10%;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.btn {
+ width: 50%;
+ height: 20%;
+}
